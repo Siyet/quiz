@@ -1,0 +1,24 @@
+body {
+    background-image: url('/static/img/bg2.jpg');
+    background-position: center;
+    text-align:center;
+    background-size:cover;
+    color:#694243;
+}
+.card {
+    background-color:white;
+    width:70%;
+    margin:15%;
+    padding:16px;
+    position:relative;
+}
+#home-btn{
+    position:absolute;
+    top: 16px;
+    left: 16px;
+}
+#cats-btn{
+    position:absolute;
+    top: 16px;
+    right: 16px;
+}
