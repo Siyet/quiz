@@ -25,7 +25,7 @@ SECRET_KEY = 'ee+lr5)=s+np^m(^@*7ty9dvsymt*+0t(or)m&$478p!nh914@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['172.22.119.167']
+ALLOWED_HOSTS = ['172.22.119.167', '127.0.0.1']
 
 
 # Application definition
@@ -137,3 +137,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+SHALARU_MODE = False
