@@ -6,7 +6,7 @@ from django.conf.urls import url, include
 from app import views
 
 urlpatterns = [
-    path('', views.startPage if not settongs.SHALARU_MODE else views.question1, name="home"),
+    path('', views.startPage if not settings.SHALARU_MODE else views.question1, name="home"),
     path('teams', views.teams, name="teams"),
     path('categories', views.categories, name="categories"),
     path('<int:cat_id>/question', views.question, name="question"),
